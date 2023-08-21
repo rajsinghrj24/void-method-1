@@ -1,0 +1,22 @@
+public class ExampleClass {
+    
+    // Non-static void method
+    public void nonStaticMethod() {
+        System.out.println("This is a non-static method.");
+    }
+    
+    // Static void method
+    public static void staticMethod() {
+        System.out.println("This is a static method.");
+    }
+
+    public static void main(String[] args) {
+        ExampleClass example = new ExampleClass();
+        
+        // Calling the non-static method using an instance of the class
+        example.nonStaticMethod();
+        
+        // Calling the static method directly using the class name
+        staticMethod();
+    }
+}
